@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-h1 {
+.title {
   text-align: center;
   margin-top: 20px;
 }
@@ -37,6 +37,6 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-tr:hover {
+tr:hover:not(thead tr) {
   background-color: #e7f7a5;
 }
